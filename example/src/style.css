@@ -1,0 +1,13 @@
+main {
+  h1 {
+    &:hover {
+      color: blue;
+    }
+    &:force-hover {
+      /* color: blue; */
+      font-size: 20px;
+    }
+    font-size: 15px;
+    font-weight: bold;
+  }
+}

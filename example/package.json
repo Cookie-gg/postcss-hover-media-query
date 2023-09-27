@@ -1,0 +1,21 @@
+{
+  "name": "sandbox",
+  "version": "0.0.2",
+  "description": "The sandbox of postcss-custom-property-object",
+  "scripts": {
+    "test:serve": "set NODE_ENV=development && webpack serve --mode production",
+    "test:build": "set NODE_ENV=production && webpack"
+  },
+  "devDependencies": {
+    "css-loader": "6.8.1",
+    "postcss-functions": "4.0.2",
+    "postcss-loader": "7.3.3",
+    "postcss-nested": "6.0.1",
+    "style-loader": "3.3.3",
+    "ts-loader": "9.4.4",
+    "typescript": "5.2.2",
+    "webpack": "5.88.2",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
+  }
+}

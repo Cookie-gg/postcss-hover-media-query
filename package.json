@@ -1,0 +1,37 @@
+{
+  "name": "@cookie_gg/postcss-hover-media-query",
+  "version": "0.0.1",
+  "description": "PostCSS plugin that supports global scoping in nested rules",
+  "main": "dist/index.js",
+  "private": false,
+  "keywords": [
+    "postcss",
+    "postcss-plugin"
+  ],
+  "author": "Cookie_gg",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx rimraf ./dist && tsc -w",
+    "build": "npx rimraf ./dist && tsc",
+    "test:serve": "cd ./example && npm run test:serve",
+    "test:build": "cd ./example && npm run test:build"
+  },
+  "dependencies": {
+    "postcss": "8.4.29"
+  },
+  "devDependencies": {
+    "@types/node": "20.6.0",
+    "@typescript-eslint/eslint-plugin": "6.7.0",
+    "@vercel/ncc": "0.38.0",
+    "eslint": "8.49.0",
+    "eslint-config-prettier": "9.0.0",
+    "prettier": "2.8.8",
+    "typescript": "5.2.2"
+  },
+  "files": [
+    "!*",
+    "!*/**/*",
+    "dist/**/*",
+    "package.json"
+  ]
+}
